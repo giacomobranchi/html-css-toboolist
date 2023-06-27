@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+:root{
+
+}
 }
 /* /header */
 .head_logo{
@@ -14,4 +17,27 @@
     font-size: 48px;
     font-weight: 900;
 }
+/* /containter */
+.container{
+    margin-left: 15rem;
+    margin-top: 5rem;
+} 
 /* /nav */
+.button{
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    border-radius: 10%;
+}
+#add_task{
+    background-color: #47adf1;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+#add_section{
+    color: #ced3d7;
+    border-style: solid;
+    border-width: 1px;
+}
