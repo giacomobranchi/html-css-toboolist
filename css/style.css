@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-:root{
-
+    font-family: 'Mulish', sans-serif;
 }
+h3{
+    padding-top: 15px;
+    font-weight: 900;
 }
 /* /header */
 .head_logo{
@@ -25,7 +27,8 @@
 /* /nav */
 .button{
     display: inline-block;
-    margin: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
     border-radius: 10%;
@@ -41,3 +44,56 @@
     border-style: solid;
     border-width: 1px;
 }
+/* /main */
+main>div{
+    padding: 5px;
+    font-weight: 700;
+}
+.checkmark{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 50%;
+    color: green;
+    width: 20px;
+    height: 20px;
+    }
+    .cross{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 50%;
+    color: red;
+    width: 20px;
+    height: 20px;
+    }
+    .bookmark{
+        display: inline-block;
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        color: white;
+    }
+    .editorial{
+        background-color: #47adf1;
+    }
+    .goals{
+        background-color: #9c72e4;
+    }
+    .recruiting{
+        background-color: #64c0a9;
+    }
+    .mobile{
+        background-color: #f29e33;
+    }
+    .website{
+        background-color: #d863a0;
+    }
+    .sales{
+        background-color: #b0c926;
+    }
