@@ -4,10 +4,14 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+body{
+    background: #cccccc;
+}
 h3{
     padding-top: 15px;
     font-weight: 900;
 }
+div 
 /* /header */
 .head_logo{
     padding-left: 1rem;
@@ -23,9 +27,10 @@ h3{
 }
 /* /containter */
 .container{
-    margin-left: 15rem;
-    margin-top: 5rem;
-} 
+    width: 70%;
+    margin: 100px auto;
+    background: #ffffff;
+}
 /* /nav */
 .button{
     display: inline-block;
